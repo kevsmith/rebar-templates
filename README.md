@@ -15,6 +15,7 @@ To get these templates working w/experimental rebar:
 1. Clone rebar-templates into $HOME/.rebar/templates
 1. Create $HOME/.rebar/global
 1. Edit $HOME/.rebar/global to include the line:
+
 ```erlang
 {template_vars, "/Path/To/Your/HomeDir/.rebar/template_vars"}.
 ```
