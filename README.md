@@ -30,4 +30,6 @@ To get these templates working w/experimental rebar:
     
 _Note: Replace example values for each entry with your own data :-)_
 
-Use rebar's standard syntax for invoking these templates, e.g. `rebar create template=supapp name=my_test`
+Use rebar's standard syntax for invoking these templates, e.g. `rebar create template=gen_server name=example`.
+An example of the gen_server template's output can be viewed at https://gist.github.com/1211350. Notice the author
+and copyright tags at the top of the file and the editor configuration comments.
