@@ -5,4 +5,4 @@
              {copyright_year,   "{{copyright_year}}" },
 	     {dir, "."}]}.
 
-{template, "gen_server/gen_server.erl", "{{dir}}/{{name}}.erl"}.
+{template, "library/module.erl", "{{dir}}/{{name}}.erl"}.
