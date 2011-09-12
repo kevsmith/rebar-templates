@@ -3,11 +3,12 @@
              {author_email, "{{author_email}}" },
              {copyright_holder, "{{copyright_holder}}" },
              {copyright_year,   "{{copyright_year}}" },
-             {description, "{{description}}"}]}.
+             {description, ""}]}.
 
 {template, "common/app.src", "{{name}}/src/{{name}}.app.src"}.
 {template, "library/module.erl", "{{name}}/src/{{name}}.erl"}.
 {template, "common/rebar.config", "{{name}}/rebar.config"}.
+{template, "common/test.erl", "{{name}}/test/{{name}}_tests.erl"}.
 {file, "common/Makefile", "{{name}}/Makefile"}.
 {file, "common/gitignore", "{{name}}/.gitignore"}.
 

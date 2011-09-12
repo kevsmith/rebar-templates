@@ -3,7 +3,7 @@
              {author_email, "{{author_email}}" },
              {copyright_holder, "{{copyright_holder}}" },
              {copyright_year,   "{{copyright_year}}" },
-             {description, "{{description}}"}]}.
+             {description, ""}]}.
 
 {template, "common/app.src", "{{name}}/src/{{name}}.app.src"}.
 {template, "common/rebar.config", "{{name}}/rebar.config"}.
