@@ -18,10 +18,13 @@ To get these templates working w/experimental rebar:
    `{template_vars, "/Path/To/Your/HomeDir/.rebar/template_vars"}.`
 1. Create template vars with the following entries:
 
-    {author,           "Your Name"}.
-    {author_email,     "email@yourcompany.com"}.
-    {copyright_holder, "Your Company Name"}.
-    {copyright_year,   "Current Year"}.
+```erlang
+{author,           "Your Name"}.
+{author_email,     "email@yourcompany.com"}.
+{copyright_holder, "Your Company Name"}.
+{copyright_year,   "Current Year"}
+```
+    
 _Note: Replace example values for each entry with your own data :-)_
 
 Use rebar's standard syntax for invoking these templates, e.g. `rebar create template=supapp name=my_test`
