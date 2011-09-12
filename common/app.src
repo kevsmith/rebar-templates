@@ -1,0 +1,7 @@
+{application, {{name}},
+ [{description, "{{description}}"},
+  {vsn, "0.1"},
+  {applications, [kernel,
+                  stdlib,
+                  sasl]}
+ ]}.

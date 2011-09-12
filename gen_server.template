@@ -1,0 +1,9 @@
+{variables, [{name, "{{name}}"},
+             {author, "{{author}}" },
+             {author_email, "{{author_email}}" },
+             {copyright_holder, "{{copyright_holder}}" },
+             {copyright_year,   "{{copyright_year}}" },
+             {description, "{{description}}"},
+	     {dir, "."}]}.
+
+{template, "gen_server/gen_server.erl", "{{dir}}/{{name}}.erl"}.

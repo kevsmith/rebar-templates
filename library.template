@@ -1,0 +1,13 @@
+{variables, [{name, "{{name}}"},
+             {author, "{{author}}" },
+             {author_email, "{{author_email}}" },
+             {copyright_holder, "{{copyright_holder}}" },
+             {copyright_year,   "{{copyright_year}}" },
+             {description, "{{description}}"}]}.
+
+{template, "common/app.src", "{{name}}/src/{{name}}.app.src"}.
+{template, "library/module.erl", "{{name}}/src/{{name}}.erl"}.
+{template, "common/rebar.config", "{{name}}/rebar.config"}.
+{file, "common/Makefile", "{{name}}/Makefile"}.
+{file, "common/gitignore", "{{name}}/.gitignore"}.
+
